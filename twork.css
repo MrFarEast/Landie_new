@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contaier {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px
+}
+
+
+@media screen and (max-width:375px) {
+    .contaier {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        background: #9CA7DF;
+
+
+    }
+
+    
+    .hero>.bigpick{
+        width: 240px;
+        height: 240px;
+       
+    }
+
+    
+
+    .text {
+        margin-left: 10px;
+
+    }
+
+    .text>h1 {
+        font-family: 'roboto';
+        font-style: medium;
+        font-size: 20px;
+        color: white;
+
+    }
+
+    .text>h2 {
+        color: white;
+        font-family: 'roboto';
+        font-size: 14px;
+    }
+
+    h2>.ad {
+        display: none;
+    }
+
+    .bblocks {
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+
+
+
+    .pic>path {
+        fill: white;
+    }
+
+    .block1>h3 {
+        color: white
+    }
+
+    .block1>h4 {
+        color: white;
+    }
+
+    .block>h3 {
+        color: white
+    }
+
+    .block>h4 {
+        color: white;
+    }
+}
+
+
+
+
+
+.ura{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f7cb2
+}
+
+h3 {
+    font-style: medium;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+h4 {
+    font-style: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5d6970;
+
+}
+
+.bblocks {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 15px;
+
+}
